@@ -5,6 +5,7 @@
 
     --ff-primary: 'Fanwood Text', Serif;
     --ff-accent: 'Shrikhand', Cursive;
+    --ff-secondary: 'Cabin', Sans-Serif;
 }
 *,
 *::before,
@@ -73,8 +74,8 @@ header {
     max-width: 40%;
 }
 .hero-par {
-    margin-left: 2rem;
-    max-width: 50%;
+    margin: 2em auto;
+    max-width: 60%;
 }
 .hero-img {
     margin-top: -4em;
@@ -104,10 +105,15 @@ header {
     padding: 1em;
     margin-top: -2.5em;
 }
+.section__two p {
+    font-family: var(--ff-secondary);
+    font-size: 1.3em;
+}
 .head-two h4 {
     margin-top: -.4em;
+
 }
-/*
+
 .col {
     display: flex;
     flex-direction: row;
@@ -115,11 +121,15 @@ header {
     flex-wrap: wrap;
     margin: 4em .3em; 
 }
+
 .image {
     align-self: flex-start;
-    padding: .5em;
+    padding: 0em .9em;
 }
-.restaurant {
+
+.restaurant-text {
     max-width: 40%;
 }
-*/
+.right {
+    text-align: right;
+}
