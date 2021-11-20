@@ -44,6 +44,12 @@ p {
     font-family: var(--ff-primary);
     font-Size: 1em;
 }
+.container {
+    margin: 2em;
+}
+
+
+/* HEADER */
 
 header {
     text-align: center;
@@ -54,24 +60,23 @@ header {
     max-width: 60%;
 }
 
-.container {
-    margin: 2em;
-}
 
+
+/* SECTION 1 */
 .hero {
     margin: 2em;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.image {
+.image-orincy {
     max-width: 40%;
 }
 .hero-par {
     margin-left: 2rem;
     max-width: 50%;
 }
-.foodie-image {
+.hero-img {
     margin-top: -4em;
     max-width: 100%;
     align-self: flex-start;
@@ -89,15 +94,32 @@ header {
 
 .head-two {
     text-align: center;
+    margin-bottom: 2.5em;
 }
+
+
+/* SECTION 2 */
 .section__two {
     background-color: var(--clr-neutral-100);
     padding: 1em;
+    margin-top: -2.5em;
 }
 .head-two h4 {
     margin-top: -.4em;
 }
-.restaurants {
+/*
+.col {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
+    margin: 4em .3em; 
 }
+.image {
+    align-self: flex-start;
+    padding: .5em;
+}
+.restaurant {
+    max-width: 40%;
+}
+*/
