@@ -2,6 +2,7 @@
 
     --clr-primary-500: #aa6f5d;
     --clr-neutral-100: #ddc0b4;
+    --clr-background-200:  #D1AE9B;
 
     --ff-primary: 'Fanwood Text', Serif;
     --ff-accent: 'Shrikhand', Cursive;
@@ -32,13 +33,22 @@ h3,
 h4 {
    font-family: var(--ff-accent);
 }
-
 h1 {
     font-Size: 4.5em;
 }
-
+@media screen and (max-width: 490px) {
+    h1 {
+        font-size: 3em;
+    }
+}
 h2 {
     font-size: 3em;
+}
+@media screen and (max-width: 490px) {
+    h2 {
+        font-size: 2.5em;
+        line-height: 1.1;
+    }
 }
 h3{
     font-size: 1.5em;
@@ -57,9 +67,10 @@ p {
 
 header {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: var(--clr-neutral-100);
     padding: 3em;
 }
+
 .greeting {
     max-width: 60%;
 }
@@ -79,6 +90,12 @@ header {
 .hero-par {
     margin: 2em auto;
     max-width: 60%;
+}
+@media screen and (max-width: 490px) {
+    .hero-par {
+        margin: 1em;
+        max-width: 85%;
+    }
 }
 .hero-img {
     margin-top: -4em;
@@ -104,36 +121,61 @@ header {
 
 /* SECTION 2 */
 .section__two {
-    background-color: var(--clr-neutral-100);
+    background-color: var(--clr-background-200);
     padding: 1em;
     margin-top: -3.5em;
 }
 .section__two p {
     font-family: var(--ff-secondary);
-    font-size: 1.3em;
+    font-size: 1.7em;
+}
+@media screen and (max-width: 490px) {
+    .section__two p {
+       font-size: 1.5em;
+    }
 }
 .head-two h4 {
     margin-top: -.4em;
-
+    color: black;
+    letter-spacing: .3em;
 }
 
 .col {
     display: flex;
+    margin-top: 2em;
     flex-direction: row;
     justify-content: center;
-    align-content: space-between;
     flex-wrap: wrap;
-    margin: 4em .3em; 
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 15px;
+    padding: 3em;
+}
+@media screen and (max-width: 855px) {
+    .col {
+        text-align: center;
+    }
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+}
 .image {
     align-self: flex-start;
-    padding: 0em .9em;
-    border-radius: 30px;
+    padding: 0em 2em;
+    border-radius: 35px;
+    max-width: 100%;
 }
 
 .restaurant-text {
-    max-width: 60%;
+    max-width: 40%;
+}
+@media screen and (max-width: 855px) {
+    .restaurant-text {
+        text-align: center;
+       max-width: 85%;
+       margin-bottom: 1em;
+    }
 }
 .right {
     text-align: right;
@@ -144,6 +186,7 @@ footer {
     font-size: 1.2em;
     background-color: blanchedalmond;
     padding: 1em;
-  
-
+}
+.location, .contact {
+    color: var(--clr-primary-500)
 }
