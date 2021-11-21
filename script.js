@@ -1,8 +1,7 @@
-const userName = prompt('What is your name?'); {
+const userName = prompt('What is your name?');
 
-  if (userName === 'Shawn' || 'shawn' || 'SHAWN' ) {
-    document.write(`Hi ${userName}`)
+  if (userName == 'Shawn') {
+    document.write(`Hi, ${userName} 👋🏿`);
   } else {
-      document.write('Hi Stranger')
-    }
-};
+      document.write('Hi, Stranger');
+    };
