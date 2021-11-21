@@ -70,6 +70,7 @@ header {
     text-align: center;
     background-color: var(--clr-neutral-100);
     padding: 3em;
+    line-height: .4;
 }
 
 .greeting {
@@ -85,9 +86,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.image-orincy {
-    max-width: 40%;
-}
+
 .hero-par {
     margin: 2em auto;
     max-width: 50%;
@@ -103,7 +102,9 @@ header {
     max-width: 100%;
     align-self: flex-start;
 }
-
+.foodie-image {
+    max-width: 100%;
+}
 .hero-head {
     color: black;
     font-size: 2em;
@@ -155,7 +156,7 @@ header {
         text-align: center;
     }
 }
-@media screen and (min-width: 855px) {
+@media screen and (max-width: 855px) {
     .col {
         margin: 2em auto;
         max-width: 65%;
