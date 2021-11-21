@@ -22,7 +22,6 @@ p {
     margin: 0 auto;
     padding: 0;
     font-size: 16px;
-    
 }
 body {
     width: 100vw;
@@ -36,7 +35,7 @@ h4 {
 h1 {
     font-Size: 4.5em;
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 630px) {
     h1 {
         font-size: 3em;
     }
@@ -44,7 +43,7 @@ h1 {
 h2 {
     font-size: 3em;
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 630px) {
     h2 {
         font-size: 2.5em;
         line-height: 1.1;
@@ -61,6 +60,7 @@ p {
 .container {
     margin: 2em;
 }
+
 
 
 /* HEADER */
@@ -89,12 +89,12 @@ header {
 }
 .hero-par {
     margin: 2em auto;
-    max-width: 60%;
+    max-width: 50%;
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 830px) {
     .hero-par {
         margin: 1em;
-        max-width: 85%;
+        max-width: 65%;
     }
 }
 .hero-img {
@@ -129,7 +129,7 @@ header {
     font-family: var(--ff-secondary);
     font-size: 1.7em;
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 640px) {
     .section__two p {
        font-size: 1.5em;
     }
@@ -155,10 +155,19 @@ header {
         text-align: center;
     }
 }
+@media screen and (min-width: 1200px) {
+    .col {
+        margin: 2em auto;
+        max-width: 65%;
+    }
+}
 
 .links {
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
+}
+a {
+    justify-content: space-between;
 }
 .image {
     align-self: flex-start;
@@ -178,6 +187,12 @@ header {
 }
 .right {
     text-align: right;
+}
+@media screen and (max-width: 855px) {
+    .right{
+    text-align: center;
+    margin-bottom: 2em;
+    }
 }
 footer {
     text-align: center;
