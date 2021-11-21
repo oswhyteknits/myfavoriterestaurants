@@ -155,7 +155,7 @@ header {
         text-align: center;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 855px) {
     .col {
         margin: 2em auto;
         max-width: 65%;
@@ -194,14 +194,14 @@ a {
     margin-bottom: 2em;
     }
 }
+
+
 footer {
     text-align: center;
     text-transform: uppercase;
     background-color: blanchedalmond;
     padding: 1em; 
 }
-<<<<<<< HEAD
-
 footer p {
     font-family: var(--ff-accent);
     font-size: 1.2em;
@@ -210,6 +210,3 @@ footer p {
 .location, .contact {
     color: var(--clr-primary-500)
 }
-=======
-
->>>>>>> 7496a5946ce002ea587f0010bfadc270af586261
