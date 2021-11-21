@@ -198,9 +198,10 @@ footer {
     text-align: center;
     text-transform: uppercase;
     background-color: blanchedalmond;
-    padding: 1em;
-<<<<<<< HEAD
+    padding: 1em; 
 }
+<<<<<<< HEAD
+
 footer p {
     font-family: var(--ff-accent);
     font-size: 1.2em;
@@ -210,7 +211,5 @@ footer p {
     color: var(--clr-primary-500)
 }
 =======
-  
 
-}
 >>>>>>> 7496a5946ce002ea587f0010bfadc270af586261
