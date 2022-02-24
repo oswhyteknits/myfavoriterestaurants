@@ -81,7 +81,7 @@ header {
 
 /* SECTION 1 */
 .hero {
-    margin: 2em;
+    margin: 1em;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -94,7 +94,7 @@ header {
 @media screen and (max-width: 830px) {
     .hero-par {
         margin: 1em;
-        max-width: 85%;
+        max-width: 90%;
     }
 }
 .hero-img {
@@ -159,7 +159,7 @@ header {
 @media screen and (max-width: 855px) {
     .col {
         margin: 2em auto;
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 
@@ -182,7 +182,7 @@ a {
 }
 @media screen and (max-width: 855px) {
     .restaurant-text {
-       max-width: 85%;
+       max-width: 90%;
        margin-bottom: 1em;
     }
 }
