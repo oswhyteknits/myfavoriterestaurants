@@ -33,33 +33,33 @@ h4 {
    font-family: var(--ff-accent);
 }
 h1 {
-    font-Size: 3.5em;
+    font-Size: 3.5rem;
 }
 @media screen and (max-width: 630px) {
     h1 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 }
 h2 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 @media screen and (max-width: 630px) {
     h2 {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         line-height: 1.1;
     }
 }
 h3{
-    font-size: 1.5em;
-    margin-bottom: 1.5em;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 p {
     font-family: var(--ff-primary);
-    font-Size: 1.3em;
+    font-Size: 1.3rem;
     line-height: 1.4;
 }
 .container {
-    margin: 1em;
+    margin: 2em 1em;
 }
 
 
@@ -107,7 +107,7 @@ header {
 }
 .hero-head {
     color: black;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .circles {
     display: flex;
@@ -128,11 +128,11 @@ header {
     margin-top: -3.5em;
 }
 .section__two p {
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 @media screen and (max-width: 640px) {
     .section__two p {
-       font-size: 1.5em;
+       font-size: 1.5rem;
     }
 }
 .head-two h4 {
