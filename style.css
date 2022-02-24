@@ -59,7 +59,7 @@ p {
     line-height: 1.4;
 }
 .container {
-    margin: 2em;
+    margin: 1em;
 }
 
 
@@ -148,8 +148,8 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.575);
-    border-radius: 15px;
-    padding: 3em;
+    border-radius: 20px;
+    padding: 1em;
 }
 @media screen and (max-width: 855px) {
     .col {
