@@ -89,12 +89,12 @@ header {
 
 .hero-par {
     margin: 2em auto;
-    max-width: 50%;
+    max-width: 80%;
 }
 @media screen and (max-width: 830px) {
     .hero-par {
         margin: 1em;
-        max-width: 65%;
+        max-width: 85%;
     }
 }
 .hero-img {
@@ -159,7 +159,7 @@ header {
 @media screen and (max-width: 855px) {
     .col {
         margin: 2em auto;
-        max-width: 65%;
+        max-width: 80%;
     }
 }
 
@@ -178,7 +178,7 @@ a {
 }
 
 .restaurant-text {
-    max-width: 40%;
+    max-width: 60%;
 }
 @media screen and (max-width: 855px) {
     .restaurant-text {
